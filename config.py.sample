@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+# RAC集群服务器地址和端口
+REAL_DBS = (
+    { 'host': '192.168.1.4', 'port': 1521 },
+    { 'host': '192.168.1.5', 'port': 1521 },
+)
+
+# 代理服务器地址、端口、超时（秒）
+HOST = "0.0.0.0"
+PORT = 1521
+TIMEOUT = 3600
+
+LOG_FILE './tns-proxy.log'
+
